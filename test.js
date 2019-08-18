@@ -1,19 +1,17 @@
-
-document.querySelector('.setTimer').addEventListener('click', startTimer)
-document.querySelector('.clearTimer').addEventListener('click', clearTimer)
+document.querySelector('.setTimer').addEventListener('click', startTimer);
+document.querySelector('.clearTimer').addEventListener('click', clearTimer);
 
 let timer;
 
-function startTimer(){
+function startTimer() {
   timer = setInterval(() => {
     console.log(new Date().getSeconds());
   }, 1000);
 }
 
-function clearTimer(){
-  clearTimeout(timer)
+function clearTimer() {
+  clearTimeout(timer);
 }
 
 
-
-
+// feature calender
