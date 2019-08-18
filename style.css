@@ -1,0 +1,22 @@
+main {
+  text-align: center;
+}
+
+button {
+  text-transform: uppercase;
+  width: auto;
+  margin: 10px;
+  font-size: 3rem;
+  border-radius: 5px;
+  background-color: beige;
+  cursor: pointer;
+  outline: none;
+}
+
+.setTimer{
+  color: green;
+}
+
+.clearTimer{
+  color: salmon;
+}
